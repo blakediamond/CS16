@@ -1,16 +1,24 @@
-#include<cstdio>
-#include<iosteam>
+#include <cstdio>
+#include <iostream>
 using namespace std;
-int main()
+
+int main ()
 {
-  int acceleration,time;
-  float distance;
-  cout << "Enter the time in seconds:" << endl;
-  cin >> time;
-  acceleration = 32;
-  distance = (acceleration*(time*time))/2
+int acceleration, time;
+int distance;
+cout << "Enter the time in seconds:\n";
+cin >> time;
 
-    cout << "The object would drop" << distance << "feet." << endl;
+acceleration = 32;
+distance = (acceleration * (time * time))/2;
 
-  return 0;
+cout << "The object would drop " << distance << " feet.\n";
+
+
+
+
+
+
+
+return 0;
 }
